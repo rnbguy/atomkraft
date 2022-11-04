@@ -7,7 +7,6 @@ jobs:
     environment: Release
     runs-on: ubuntu-latest
     concurrency: release
-    if: github.repository_owner == 'informalsystems'
     steps:
       - uses: actions/checkout@v2
         with:
@@ -17,5 +16,3 @@ jobs:
         uses: relekang/python-semantic-release@master
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
-          repository_username: __token__
-          repository_password: ${{ secrets.PYPI_TOKEN }}
