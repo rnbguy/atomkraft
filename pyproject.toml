@@ -69,3 +69,4 @@ version_pattern = [
 ]
 branch = "dev"
 build_command = "pip install poetry && poetry build"
+upload_to_repository = false
