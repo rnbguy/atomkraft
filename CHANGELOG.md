@@ -2,6 +2,10 @@
 
 <!--next-version-placeholder-->
 
+## v0.2.0 (2022-11-04)
+### Feature
+* **ci:** New ([`f5af3e2`](https://github.com/rnbguy/atomkraft/commit/f5af3e29eb8d21b7178292a1361dd1e3f82426c2))
+
 ## v0.1.2 (2022-11-04)
 ### Fix
 * Do not upload to pypi ([`d368fd0`](https://github.com/rnbguy/atomkraft/commit/d368fd0d178cd881d30b29270e266b899b0a3cd3))
